@@ -50,6 +50,7 @@ This challenge consists of completing partially completed project which should s
 - comments can contain 0 or N mentions (N>=0)
 - when comments are displayed, the mentions should be rendered as links to user profile page (see example page implementation)
 - **IMPORTANT**: comments must be stored in such a format, that it's possible to render them in both browser and mobile app (this means that storing the comments as HTML with hardcoded links to the user profile may not be the best option)
+-- **IMPORTANT**: database can contain users with same first and last name. App should be able to handle this.
 - TIP: store the comments in JSON format and construct an HTML before rendering them
 
 #### Bonus points
